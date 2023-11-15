@@ -1,0 +1,60 @@
+.breadcrumbs-area .breadcrumb-item + .breadcrumb-item:before{
+	display: none;
+}
+.breadcrumbs-area{
+	padding: 18px 0;
+	background: var(--zumThor);
+}
+.breadcrumbs-area .row{
+	align-items: center;
+}
+.breadcrumbs-area .title{
+	margin: 0;
+	font-size: 30px;
+	line-height: 1.2;
+	color: #000;
+	font-weight: bold;
+}
+.breadcrumbs-area .breadcrumb{
+	margin: 0;
+	justify-content: flex-end;
+}
+.breadcrumbs-area .breadcrumb svg{
+	display: inline-block;
+	vertical-align: middle;
+	width: 13px;
+	height: 14px;
+	margin: 5px 5px 0;
+}
+.breadcrumbs-area .breadcrumb svg path{
+	color: var(--nobel);
+}
+.breadcrumbs-area .breadcrumb-item{
+	font-size: 14px;
+	color: var(--dustyGray);
+	text-decoration: none;
+	transition: all ease 0.5s;
+}
+.breadcrumbs-area .breadcrumb-item:hover{
+	color: var(--darkBlue);
+}
+.breadcrumbs-area .breadcrumb-item.active{
+	color: var(--darkBlue);
+	font-size: 15px;
+	font-weight: 600;
+}
+@media only screen and (max-width: 991.98px){
+	.breadcrumbs-area .title{
+		font-size: 22px;
+	}
+}
+@media only screen and (max-width: 767.98px){
+	.breadcrumbs-area .title{
+		font-size: 20px;
+		text-align: center;
+		margin-bottom: 5px;
+	}
+	.breadcrumbs-area .breadcrumb{
+		justify-content: center;
+	}
+}

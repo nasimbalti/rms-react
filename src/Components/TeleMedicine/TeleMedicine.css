@@ -1,0 +1,49 @@
+.tele-medicine{
+	padding: 30px 0;
+}
+.tele-medicine img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.tele-medicine .holder{
+	position: relative;
+}
+.tele-medicine .caption{
+	position: absolute;
+	left: 70px;
+	right: 70px;
+	top: 70px;
+	bottom: 70px;
+	text-align: center;
+}
+#main .tele-medicine .caption h3{
+	color: var(--white);
+}
+#main .tele-medicine .caption p{
+	color: var(--white);
+	font-size: 18px;
+	line-height: 26px;
+}
+@media only screen and (max-width: 991.98px){
+	.tele-medicine .caption{
+		left: 40px;
+		right: 40px;
+		top: 40px;
+		bottom: 70px;
+	}
+	#main .tele-medicine .caption p{
+		font-size: 16px;
+		line-height: 20px;
+	}
+}
+@media only screen and (max-width: 767.98px){
+	.tele-medicine .caption{
+		position: static;
+		padding-top: 10px;
+	}
+	#main .tele-medicine .caption h3,
+	#main .tele-medicine .caption p{
+		color: var(--black);
+	}
+}

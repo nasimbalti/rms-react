@@ -1,0 +1,44 @@
+.medical-area{
+	padding: 20px 0;
+	text-align: center;
+}
+.medical-area p{
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--ebonyClay);
+	margin-bottom: 30px;
+}
+.medical-area .frame{
+	border: 1px solid var(--altoDark);
+}
+.medical-area .frame .img{
+	margin-bottom: 35px;
+}
+.medical-area .frame img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+.medical-area .frame .title{
+	display: block;
+	background: var(--darkBlue);
+	color: var(--white);
+	padding: 10px;
+	font: 700 20px/1.2 var(--MontserratFont);
+}
+.medical-area.small-caption .frame .title{
+	font-size: 16px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	font-weight: normal;
+	min-height: 100px;
+	justify-content: center;
+	padding: 15px 10px;
+}
+@media only screen and (max-width: 991.98px){
+	.medical-area .frame{
+		margin-bottom: 20px;
+	}
+}

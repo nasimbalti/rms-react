@@ -1,0 +1,66 @@
+.why-choose-us{
+	padding: 50px 0;
+}
+.why-choose-us h3{
+	font: 700 30px/1.2 var(--MontserratFont);
+	margin: 0 0 32px;
+}
+.why-choose-us .list{
+	margin-bottom: 30px;
+}
+.why-choose-us .box{
+	margin-bottom: 30px;
+	background: var(--white);
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+	min-height: 232px;
+	padding: 30px;
+	text-align: center;
+	border-bottom: 3px solid var(--white);
+	border-radius: 6px;
+	transition: all ease 0.5s;
+	text-decoration: none;
+	color: var(--black);
+	display: block;
+}
+.why-choose-us a.box:hover h4{
+	color: var(--darkBlue);
+}
+.why-choose-us .box:hover{
+	border-bottom-color: var(--darkBlue);
+}
+.why-choose-us .box .icon{
+	display: block;
+	margin: 0 auto;
+}
+.why-choose-us .box .ico{
+	width: 120px;
+	height: 120px;
+	margin: 0 auto;
+	display: block;
+	background: url('../../img/front/sprite.png') no-repeat;
+	background-position: -17px -122px;
+	transform: scale(0.6);
+}
+.why-choose-us .box .ico.support{
+	background-position: -161px -125px;
+}
+.why-choose-us .box .ico.certified{
+	background-position: -323px -130px;
+}
+.why-choose-us .box h4{
+	margin: 0;
+	color: var(--black);
+	transition: all ease 0.5s;
+	font: 700 18px/1.2 var(--MontserratFont);
+}
+@media only screen and (max-width: 767.98px){
+	.why-choose-us h3{
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	.why-choose-us .box{
+		min-height: inherit;
+		padding: 15px 15px 35px;
+		margin-bottom: 15px;
+	}
+}

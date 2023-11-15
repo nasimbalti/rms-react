@@ -1,0 +1,17 @@
+.blog-details .img{
+	margin-bottom: 30px;
+}
+.blog-details h2{
+	font: 500 40px/47px var(--MontserratFont);
+	margin: 0 0 10px;
+}
+#main .blog-details h3{
+	font: 500 32px/36px var(--MontserratFont);
+	margin: 0 0 10px;
+}
+.blog-details time {
+    display: block;
+    font-size: 13px;
+    color: var(--frenchGray);
+    margin-bottom: 5px;
+}

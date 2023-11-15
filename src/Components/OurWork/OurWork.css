@@ -1,0 +1,107 @@
+.our-work{
+	padding: 50px 0;
+}
+.our-work .box{
+	position: relative;
+	margin: 12px 0;
+}
+.our-work .box img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.our-work .overlay{
+	position: absolute;
+	inset: 0;
+	background: rgb(7 28 85 / 61%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all ease 0.5s;
+	transform: scale(0);
+}
+.our-work .box:hover .overlay{
+	transform: scale(1);
+}
+.our-work .overlay .image-popup{
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	background: var(--white);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.our-work .overlay svg{
+	width: 18px;
+	height: 18px;
+}
+.our-work .overlay svg path{
+	fill: var(--primaryExtended);
+}
+.our-work .btn{
+	margin-top: 40px;
+	box-shadow: 1px 8px 20px rgb(0 0 0 / 32%);
+	padding: 16px 30px;
+	font: 700 18px/1.2 var(--MontserratFont);
+	color: var(--white);
+	background: var(--darkBlue);
+	border-radius: 30px;
+	transition: all ease 0.5s;
+	border: 0;
+}
+.our-work .btn:hover{
+	background: var(--black);
+}
+.our-work .slick-slider{
+	padding-bottom: 70px;
+}
+.our-work .slider-container .box{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.our-work .slick-slider .slick-arrow{
+	position: absolute;
+	left: 47.5%;
+	bottom: 0;
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+	margin: 0 5px;
+	border: 0;
+	overflow: hidden;
+	background: var(--solidGray);
+}
+.our-work .slick-slider .slick-arrow:hover{
+	background: var(--darkBlue);
+	color: var(--white);
+}
+.our-work .slick-slider .slick-prev{
+	margin-left: -20px;
+}
+.our-work .slick-slider .slick-next{
+	margin-left: 40px;
+}
+.our-work .slider-container .btn.btn-primary{
+	display: none;
+}
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+	opacity: 0;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.mfp-with-zoom.mfp-ready .mfp-container {
+    opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+    opacity: 0.8;
+}
+.mfp-with-zoom.mfp-removing .mfp-container,
+.mfp-with-zoom.mfp-removing.mfp-bg {
+	opacity: 0;
+}

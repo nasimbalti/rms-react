@@ -1,0 +1,331 @@
+.list{
+	margin: 0 0 50px;
+	padding: 0;
+	list-style: none;
+	font-size: 15px;
+	line-height: 22px;
+}
+.list li{
+	position: relative;
+	padding-left: 28px;
+	margin-bottom: 10px;
+}
+.list .fa-circle-right{
+	color: var(--darkBlue);
+	position: absolute;
+	left: 0;
+	top: 4px;
+}
+.network-install .txt{
+	padding: 40px 30px 0 0;
+}
+.network-install h3{
+	margin: 0 0 8px;
+	font: 700 30px/1.2 var(--MontserratFont);
+	color: var(--bigStone);
+}
+.network-install .img img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.network-install .basic{
+	background: url('../../img/front/basic-bg.jpg') no-repeat;
+	background-size: cover;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+	padding: 50px 70px;
+	border-radius: 30px;
+	color: var(--white);
+	position: relative;
+	z-index: 1;
+}
+.network-install .basic img{
+	filter: grayscale(100%);
+}
+.network-install .basic h3{
+	font: 700 54px/1.2 var(--MontserratFont);
+	margin: 0 0 8px;
+	color: var(--white);
+}
+#main .network-install .basic h3,
+#main .network-install .basic p{
+	color: var(--white);
+}
+#main .basic-scenario .frame h3{
+	color: var(--grayDark);
+}
+#main .basic-scenario .frame p{
+	color: var(--ebonyClay);
+}
+.network-install .basic h3 span {
+    font-size: 36px;
+    display: block;
+}
+.basic-scenario{
+	background: url('../../img/front/basic-scenario.jpg') no-repeat;
+	background-size: cover;
+	padding: 250px 0 80px 0;
+	margin-top: -150px;
+}
+.basic-scenario .frame{
+	background: var(--white);
+	border-radius: 25px;
+    padding: 60px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+	font-size: 16px;
+    line-height: 26px;
+    color: var(--ebonyClay);
+}
+.basic-scenario .frame h3{
+	margin: 0 0 8px;
+	color: var(--grayDark);
+	font: 700 30px/1.2 var(--MontserratFont);
+}
+.basic-scenario .frame h3 span{
+	display: block;
+	margin-bottom: 8px;
+	color: var(--darkBlue);
+	font-size: 24px;
+}
+.scenario-1{
+	padding: 60px 0;
+}
+.scenario-1 h3{
+	font: 700 30px/1.2 var(--MontserratFont);
+}
+.scenario-1 h3 span,
+.scenario-1 h4 span{
+	display: block;
+	color: var(--darkBlue);
+	margin-bottom: 5px;
+	font-size: 24px;
+}
+.scenario-1 p{
+	font-size: 16px;
+    line-height: 26px;
+    color: var(--ebonyClay);
+}
+.scenario-1 .img img{
+	max-width: 100%;
+	display: block;
+	height: auto;
+}
+.scenario-1 .img.grayscale img{
+	filter: grayscale(100%);
+}
+.scenario-1 .img{
+	position: relative;
+}
+.scenario-1 .pulse{
+    animation: pulse 2s infinite;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 130px;
+    bottom: 110px;
+    border: 3px solid var(--darkBlue);
+    border-radius: 100%;
+}
+.scenario-1 .pulse.add{
+	width: 300px;
+    height: 300px;
+	right: 27%;
+    left: auto;
+    top: 27%;
+    bottom: auto;
+}
+.scenario-1 .pulse2{
+    animation: pulse 3s infinite;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 140px;
+    bottom: 120px;
+    border: 3px solid var(--black);
+    border-radius: 100%;
+}
+.scenario-1 .icon{
+	margin-bottom: 15px;
+}
+.scenario-1 .icon .ico{
+	display: block;
+	width: 102px;
+	height: 88px;
+	background: url(../../img//front/sprite.png) no-repeat;
+	background-position: -16px -1px;
+}
+.scenario-1 .icon .ico.speed{
+	background-position: -138px -1px;
+}
+.scenario-1 .icon .ico.traffic{
+	background-position: -252px -1px;
+}
+.scenario-1 h4{
+	font: 700 24px/1.2 var(--MontserratFont);
+	margin: 0 0 5px;
+}
+.scenario-1 .tick-list{
+	padding: 0 0 48px;
+	margin: 0;
+	list-style: none;
+}
+.scenario-1 .tick-list li{
+	padding-left: 100px;
+	margin-top: 30px;
+	position: relative;
+}
+.scenario-1 .tick-list .ico{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+	background: var(--white);
+	color:  var(--darkBlue);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.scenario-1.bg{
+	background: url('../../img/front/grey-bg.jpg') no-repeat;
+	background-size: cover;
+}
+.scenario-1 .tick-list .fa-check{
+	color: var(--darkBlue);
+	font-size: 36px;
+}
+.wifi-extend{
+	background: var(--catSkillWhite);
+	padding: 40px 75px;
+	margin: 30px 0 0;
+	border-radius: 30px;
+}
+.scenario-1 .pulse-add-1,
+.scenario-1 .pulse-add-2,
+.scenario-1 .pulse-add-3,
+.scenario-1 .pulse-add-4,
+.scenario-1 .pulse-add-5,
+.scenario-1 .pulse-add-6{
+	animation: pulse 2s infinite;
+	width: 170px;
+	height: 170px;
+	position: absolute;
+	left: 55px;
+	bottom: 120px;
+	border: 3px solid var(--darkBlue);
+	border-radius: 100%;
+}
+.scenario-1 .pulse-add-2{
+	left: auto;
+	right: 360px;
+	bottom: auto;
+    top: 70px;
+}
+.scenario-1 .pulse-add-3{
+	left: 240px;
+    bottom: 180px;
+}
+.scenario-1 .pulse-add-4{
+	right: 255px;
+	left: auto;
+    bottom: 170px;
+}
+.scenario-1 .pulse-add-5{
+	right: 90px;
+    top: 155px;
+	left: auto;
+	bottom: auto;
+}
+.scenario-1 .pulse-add-6{
+	left: 60px;
+    bottom: -10px;
+}
+@keyframes pulse{
+	0% {
+		transform: scale(0);
+	}
+	90% {
+		transform: scale(2);
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@media only screen and (max-width: 991.98px){
+	.network-install .txt{
+		padding: 0;
+	}
+	.get-quote .tel-area{
+		padding: 30px 20px;
+	}
+	.get-quote .tel-area a{
+		font-size: 28px;
+	}
+}
+@media only screen and (max-width: 767.98px){
+	.list{
+		margin: 0 0 20px;
+	}
+	.network-install h3{
+		font-size: 20px;
+	}
+	.network-install .img{
+		margin-bottom: 20px;
+	}
+	.network-install .basic{
+		padding: 20px;
+	}
+	.network-install .basic h3{
+		font-size: 38px;
+	}
+	.network-install .basic h3 span{
+		font-size: 20px;
+	}
+	.basic-scenario{
+		padding: 180px 0 80px;
+	}
+	.basic-scenario .frame{
+		padding: 15px;
+	}
+	.basic-scenario .frame h3{
+		font-size: 20px;
+	}
+	.scenario-1{
+		text-align: center;
+	}
+	.scenario-1 .icon .ico{
+		margin: 0 auto;
+	}
+	.scenario-1 h3{
+		font-size: 20px;
+	}
+	.scenario-1 .tick-list li{
+		padding-left: 45px;
+	}
+	.scenario-1 .tick-list .ico{
+		width: 35px;
+		height: 35px;
+	}
+	.scenario-1 .tick-list{
+		text-align: left;
+	}
+	.scenario-1 .tick-list .fa-check,
+	.scenario-1 h4{
+		font-size: 20px;
+	}
+	.scenario-1 .img{
+		margin-bottom: 20px;
+	}
+	.wifi-extend{
+		padding: 20px;
+		margin-bottom: 20px;
+	}
+	.wifi-extend img{
+		display: block;
+		max-width: 100%;
+	}
+	.wifi-extend .list{
+		text-align: left;
+	}
+}

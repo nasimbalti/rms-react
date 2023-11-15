@@ -1,0 +1,72 @@
+.support-details{
+	padding: 60px 0;
+}
+.support-details .box{
+	text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 40px 20px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    min-height: 243px;
+}
+.support-details .ribbon{
+	position: absolute;
+	background: var(--darkBlue);
+	box-shadow: 0 0 0 999px var(--darkBlue);
+	clip-path: inset(0 -100%);
+	color: var(--white);
+	inset: 0 auto auto 0;
+	transform-origin: 100% 0;
+	transform: translate(-29.3%) rotate(-45deg);
+}
+.support-details .icon{
+    border: 1px solid var(--darkBlue);
+    margin: 0 auto 15px;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    overflow: hidden;
+    border-radius: 100%;
+    position: relative;
+    z-index: 1;
+}
+.support-details .icon .fa-phone,
+.support-details .icon .fa-envelope,
+.support-details .icon .fa-envelope-open-text{
+	font-size: 30px;
+	color: var(--darkBlue);
+	transition: all 0.5s ease-in-out;
+}
+.support-details .text span{
+	display: block;
+	margin: 0 0 10px;
+}
+.support-details .text a{
+	text-decoration: none;
+	color: var(--paleSky);
+	transition: all ease 0.5s;
+}
+.support-details .text a:hover{
+	color: var(--darkBlue);
+}
+.support-details .btn-holder .chat{
+	display: block;
+	padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 700;
+    background: var(--darkBlue);
+    border: none;
+	text-decoration: none;
+	text-align: center;
+	color: var(--white);
+	border-radius: 4px;
+	transition: all ease 0.5s;
+}
+.support-details .btn-holder .chat:hover{
+	background: var(--black);
+}

@@ -1,0 +1,72 @@
+.free-quote{
+	padding: 60px 0;
+	font: 600 18px/1.2 var(--MontserratFont);
+}
+.free-quote .frame{
+	padding: 44px;
+	border-radius: 15px;
+	text-align: center;
+	color: var(--white);
+	background: var(--darkBlue) url('../../img/front/control4/question-before.png') no-repeat;
+}
+#main .free-quote h3{
+	margin: 0;
+	font-size: 30px;
+	color: var(--white);
+}
+#main .free-quote p{
+	margin: 0 0 15px;
+	color: var(--white);
+}
+.free-quote .txt{
+	margin: 0 0 20px;
+}
+.free-quote .tel{
+	text-decoration: none;
+	color: var(--white);
+	font-size: 36px;
+	line-height: 1.2;
+	font-weight: bold;
+	transition: all ease 0.5s;
+}
+.free-quote .tel:hover{
+	color: var(--gray);
+}
+.free-quote .btn{
+	background: var(--white);
+    font-size: 18px;
+    color: var(--black);
+    border-radius: 42px;
+    box-shadow: 0 11px 15px rgb(0 0 0 / 18%);
+    padding: 17px 38px;
+    font-weight: bold;
+	transition: all ease 0.5s;
+}
+.free-quote .btn svg{
+	margin: 0 5px;
+}
+.free-quote .btn:hover{
+	background: var(--black);
+	color: var(--white);
+}
+.free-quote .btn svg path{
+	transition: all ease 0.5s;
+}
+.free-quote .btn:hover svg path{
+	fill: var(--white);
+}
+@media only screen and (max-width: 767.98px){
+	.free-quote {
+		padding: 30px 0;
+	}
+	.free-quote .frame{
+		padding: 20px 15px;
+	}
+	#main .free-quote h3{
+		font-size: 25px;
+		margin-bottom: 5px;
+	}
+	.free-quote .tel{
+		font-size: 30px;
+	}
+}

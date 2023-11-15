@@ -1,0 +1,262 @@
+@import '../../Utils/slickslider.css';
+
+.banner-holder{
+	padding: 0;
+	position: relative;
+}
+.banner-holder .slick-arrow{
+	position: absolute;
+	left: 30px;
+	top: 50%;
+	z-index: 5;
+	width: 70px;
+	height: 70px;
+	margin-top: -35px;
+	border-radius: 100%;
+	background: rgba(0,0,0,0.10);
+	border: 0;
+	cursor: pointer;
+}
+.banner-holder .slick-arrow svg{
+	left: 50%;
+	top: 50%;
+	margin-left: -5px;
+	margin-top: -8px;
+	position: absolute;
+	z-index: 5;
+	width: 10px;
+	height: 16px;
+	transition: all ease 0.5s;
+	pointer-events: none;
+}
+.banner-holder .slick-arrow svg path{
+	fill: var(--white);
+}
+.banner-holder .slick-arrow .arrow-preview{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+	transition: all ease 0.5s;
+	object-fit: cover;
+	border-radius: 100%;
+	opacity: 0;
+	transform: scale(0);
+	pointer-events: none;
+}
+.banner-holder .slick-arrow:hover .arrow-preview{
+	opacity: 1;
+	transform: scale(1);
+}
+.banner-holder .slick-arrow.slick-prev .arrow-preview{
+	left: 0;
+	top: 0;
+	transform-origin: 0% 50%;
+}
+.banner-holder .slick-arrow.slick-next .arrow-preview{
+	right: 0;
+	top: 0;
+	transform-origin: 100% 50%;
+}
+.banner-holder .slick-next{
+	left: auto;
+	right: 30px;
+}
+.banner-holder .slick-slide img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.banner-holder .frame{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 4;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--white);
+}
+.banner-holder .slick-dots{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	left: 30px;
+	right: 30px;
+	bottom: 30px;
+	z-index: 4;
+	text-align: center;
+}
+.banner-holder .holder{
+	position: relative;
+	overflow: hidden;
+}
+.banner-holder .slick-dots li{
+	display: inline-block;
+	vertical-align: middle;
+}
+.banner-holder .slick-dots button{
+	border: 0;
+	width: 18px;
+    height: 18px;
+	border-radius: 100%;
+	background: rgba(255, 255, 255, 0.3);
+	text-indent: -9999px;
+	margin: 0 2px;
+	position: relative;
+	border: 2px solid transparent;
+	transition: all ease 0.5s;
+}
+.banner-holder .slick-dots button:before{
+	content: '';
+	inset: 4px;
+	background: var(--white);
+	position: absolute;
+	border-radius: 100%;
+	transition: all ease 0.5s;
+	transform: scale(0);
+}
+.banner-holder .slick-dots .slick-active button:before,
+.banner-holder .slick-dots button:hover:before{
+	transform: scale(1);
+}
+.banner-holder .slick-dots button:hover,
+.banner-holder .slick-dots .slick-active button{
+	border-color: var(--white);
+	background: transparent;
+}
+.banner-holder .caption{
+	text-align: center;
+	max-width: 900px;
+	margin: auto;
+}
+.banner-holder h1,
+.banner-holder h2{
+	font-weight: bold;
+	font-size: 72px;
+	line-height: 1.2;
+	text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+#main .banner-holder p{
+	font-size: 26px;
+	line-height: 28px;
+	font-weight: 500;
+	margin: 0 0 25px;
+	color: var(--white);
+}
+.banner-holder .btn{
+	font-weight: 500;
+	border-radius: 0;
+	min-width: 153px;
+	line-height: 1.2;
+	color: var(--white);
+	padding: 12px 30px;
+	border: 2px solid var(--white);
+	text-align: center;
+	transition: all ease 0.5s;
+}
+.banner-holder .btn:hover{
+	background: var(--white);
+	color: var(--black);
+}
+.banner-holder.animate .slick-slide.slick-active img{
+	animation: zoomIn 9s ease 2s;
+}
+.banner-holder.animate .caption .box{
+	overflow: hidden;
+}
+.banner-holder.animate .caption h1,
+.banner-holder.animate .caption h2{
+	transform: translateY(-100%);
+}
+.banner-holder.animate .caption p{
+	transform: translateX(-100%);
+}
+.banner-holder.animate .caption .btn{
+	transform: translateY(100%);
+	transition: none;
+}
+.banner-holder.animate .slick-active .caption h1,
+.banner-holder.animate .slick-active .caption h2{
+	transform: translateY(0);
+	transition: all ease 2s;
+}
+.banner-holder.animate .slick-active .caption p{
+	transform: translateX(0);
+	transition: all ease 2s;
+}
+.banner-holder.animate .slick-active .caption .btn{
+	transform: translateY(0);
+	transition: all ease 2s;
+}
+@keyframes zoomIn {
+	0% {
+		transform: scale(1);
+	}
+	100% {
+		transform: scale(1.3);
+	}
+}
+@keyframes zoomOut {
+	0% {
+		transform: scale(1.3);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+@media only screen and (max-width: 1199.98px){
+	.banner-holder h1,
+	.banner-holder h2{
+		font-size: 50px;
+	}
+	.banner-holder .caption{
+		max-width: 760px;
+	}
+}
+@media only screen and (max-width: 991.98px){
+	.banner-holder .slick-dots{
+		bottom: 10px;
+	}
+	.banner-holder .slick-prev{
+		left: 10px;
+	}
+	.banner-holder .slick-next{
+		right: 10px;
+	}
+	.banner-holder .caption {
+		max-width: 570px;
+	}
+}
+@media only screen and (max-width: 767.98px){
+	.banner-holder .holder .img{
+		height: 100vh;
+	}
+	.banner-holder .slick-slide img{
+		object-fit: cover;
+		height: 100%;
+		width: 100%;
+	}
+	.banner-holder .caption{
+		padding-inline: 15px;
+	}
+	.banner-holder h1,
+	.banner-holder h2{
+		font-size: 32px;
+	}
+	.banner-holder p{
+		font-size: 16px;
+		line-height: 20px;
+		margin: 0 0 15px;
+	}
+	.banner-holder .btn{
+		padding: 10px 20px;
+	}
+	.banner-holder .slick-arrow{
+		display: none;
+	}
+}

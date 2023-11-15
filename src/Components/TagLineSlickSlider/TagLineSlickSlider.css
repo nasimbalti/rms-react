@@ -1,0 +1,20 @@
+@import '../../Utils/slickslider.css';
+
+.slick-holder{
+	background: url('../../img/front/tagline-bg.jpg') no-repeat;
+	background-size: cover;
+	padding: 30px 0;
+}
+#main .slick-holder h3{
+	margin: 5px 0;
+	font-size: 36px;
+	line-height: 1.2;
+	font-weight: bold;
+	color: var(--white);
+	text-align: center;
+}
+@media only screen and (max-width: 767.98px){
+	#main .slick-holder h3{
+		font-size: 22px;
+	}
+}

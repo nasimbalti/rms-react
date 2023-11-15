@@ -1,0 +1,119 @@
+.tab-holder .nav-wrap{
+	position: relative;
+}
+.tab-holder .ico{
+	background: url('../../img//front/sprite.png') no-repeat;
+	background-position: -437px -278px;
+	width: 54px;
+	height: 70px;
+	display: block;
+}
+.tab-holder .ico.teach{
+	background-position: -8px -273px;
+}
+.tab-holder .ico.rooms{
+	background-position: -293px -276px;
+}
+.tab-holder .ico.faculty{
+	background-position: -221px -276px;
+}
+.tab-holder .ico.public{
+	background-position: -81px -276px;
+}
+.tab-holder .ico.cafe{
+	background-position: -505px -278px;
+}
+.tab-holder .ico.outdoor{
+	background-position: -149px -277px;
+}
+.tab-holder .ico.class{
+	background-position: -368px -279px;
+}
+.tab-holder .nav-item .nav-link{
+	background: transparent;
+	transform: scale(0.75);
+	transform-origin: center;
+	position: absolute;
+}
+.tab-holder .nav-item .nav-link:hover .ico{
+	animation: pinPulse 0.6s infinite alternate ease-in-out;
+    -webkit-animation: pinPulse 0.6s infinite alternate ease-in-out;
+}
+.tab-holder #tabs-tab-first{
+	top: -5%;
+    left: 36%;
+}
+.tab-holder #tabs-tab-second{
+	top: 5%;
+    left: 26%;
+}
+.tab-holder #tabs-tab-third{
+	top: 18%;
+    left: 15%;
+}
+.tab-holder #tabs-tab-fourth{
+	top: 43%;
+    left: 34%;
+}
+.tab-holder #tabs-tab-fifth{
+	top: 28%;
+    left: 40%;
+}
+.tab-holder #tabs-tab-sixth{
+	top: 34%;
+    left: 46%;
+}
+.tab-holder #tabs-tab-seventh{
+	bottom: 27%;
+    left: 56%;
+}
+.tab-holder #tabs-tab-eighth{
+	top: 22%;
+    right: 29%;
+}
+.tab-holder .content{
+	padding-top: 40px;
+}
+.tab-holder .content .holder{
+	display: flex;
+}
+.tab-holder .content .icon{
+	margin-right: 15px;
+}
+.tab-holder .content h4{
+	margin: 0 0 5px;
+	color: var(--darkBlue);
+	font: 700 20px/1.2 var(--MontserratFont);
+}
+@keyframes pinPulse {
+	0% {
+		transform: translateY(0);
+	}
+	100%{
+		transform: translateY(10px);
+	}
+}
+@media only screen and (max-width: 767.98px){
+	.tab-holder .nav-item .nav-link{
+		transform: scale(0.5);
+	}
+	.tab-holder #tabs-tab-first{
+		top: -20%;
+		left: 28%;
+	}
+	.tab-holder #tabs-tab-second{
+		left: 18%;
+		top: -15%;
+	}
+	.tab-holder #tabs-tab-third{
+		left: 8%;
+		top: -1%;
+	}
+	.tab-holder #tabs-tab-eighth{
+		top: 5%;
+	}
+	.tab-holder #tabs-tab-fifth{
+		left: 30%;
+		top: 20%;
+	}
+}

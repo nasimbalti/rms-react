@@ -1,0 +1,85 @@
+.text-overlay .holder{
+	position: relative;
+}
+.text-overlay .caption{
+	position: absolute;
+	left: 70px;
+	top: 70px;
+	bottom: 70px;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 50%;
+}
+.text-overlay .caption.right,
+.text-overlay .caption.left{
+	left: auto;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	max-width: 40%;
+	background: rgba(0, 0, 0, 0.6);
+	padding: 50px;
+}
+.text-overlay .caption.left{
+	left: 0;
+	right: auto;
+}
+#main .text-overlay .caption h3{
+	color: var(--white);
+}
+.text-overlay .caption.right h3,
+.text-overlay .caption.left h3{
+	font-size: 24px !important;
+}
+.text-overlay .caption.right p,
+.text-overlay .caption.left p{
+	font-size: 16px !important;
+}
+#main .text-overlay .caption p{
+	color: var(--white);
+	font-size: 18px;
+	line-height: 26px;
+}
+@media only screen and (max-width: 991.98px){
+	.text-overlay .caption{
+		left: 40px;
+		right: 40px;
+		top: 40px;
+		bottom: 70px;
+		max-width: inherit;
+	}
+	#main .text-overlay .caption p{
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.text-overlay .caption.right,
+	.text-overlay .caption.left{
+		max-width: 50%;
+		padding: 20px;
+	}
+	.text-overlay .caption.right h3,
+	.text-overlay .caption.left h3{
+		font-size: 22px !important;
+	}
+}
+@media only screen and (max-width: 767.98px){
+	.text-overlay .caption{
+		position: static;
+		padding-top: 10px;
+	}
+	#main .text-overlay .caption h3,
+	#main .text-overlay .caption p{
+		color: var(--black);
+	}
+	.text-overlay .caption.right,
+	.text-overlay .caption.left{
+		max-width: 100%;
+		padding: 15px;
+	}
+	.text-overlay .caption.right h3,
+	.text-overlay .caption.left h3{
+		font-size: 20px !important;
+	}
+}

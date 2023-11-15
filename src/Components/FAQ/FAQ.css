@@ -1,0 +1,80 @@
+.faq-area{
+	padding: 50px 0;
+}
+.faq-area .frame{
+	background: var(--linkWater);
+    padding: 50px;
+    border-radius: 10px;
+}
+.faq-area h3{
+	margin: 0 0 25px;
+}
+.faq-area .accordion-button{
+	outline: none;
+	box-shadow: none;
+	background: var(--alabaster);
+	color: var(--black);
+}
+.faq-area .accordion-button:hover{
+	background: var(--darkBlue);
+	color: var(--white);
+}
+.faq-area .accordion-button:hover:before,
+.faq-area .accordion-button:not(.collapsed):before{
+	background: var(--white);
+}
+.faq-area .accordion-button:hover:after,
+.faq-area .accordion-button:not(.collapsed):after{
+	opacity: 0;
+}
+.faq-area .accordion-button:before,
+.faq-area .accordion-button:after{
+	position: absolute;
+	right: 23px;
+	top: 23px;
+	width: 16px;
+	height: 4px;
+	background: var(--darkBlue);
+	content: '';
+}
+.faq-area .accordion-button:after{
+	right: 29px;
+	top: 17px;
+	height: 16px;
+	width: 4px;
+}
+.faq-area .accordion-item{
+	margin-bottom: 10px;
+	border: 0;
+}
+.faq-area .accordion-button:not(.collapsed){
+	background: var(--darkBlue);
+	color: var(--white);
+}
+@media only screen and (max-width: 767.98px){
+	.support-details .text a{
+		word-break: break-all;
+	}
+	.members-login .login-area{
+		padding: 50px 30px;
+	}
+	.faq-area .frame{
+		padding: 50px 20px;
+	}
+	.members-login .login-area p{
+		flex-direction: column;
+	}
+	.members-login .login-area span{
+		margin-bottom: 10px;
+		display: block;
+	}
+	.faq-area .accordion-button:before{
+		right: 7px;
+	}
+	.faq-area .accordion-button:after{
+		right: 13px;
+	}
+	.faq-area .accordion-button{
+		padding-right: 30px;
+	}
+}

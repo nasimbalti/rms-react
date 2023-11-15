@@ -1,0 +1,59 @@
+.login-module{
+	padding: 50px 0;
+	background: url('../../img/back/rms-bg.jpg') no-repeat;
+	background-size: cover;
+}
+.login-module .form-holder{
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 50px;
+	border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+	background: var(--white);
+}
+.login-module .logo-holder{
+	max-width: 200px;
+	margin: 0 auto 25px;
+}
+.login-module h5{
+	text-align: center;
+	margin: 0 0 30px;
+}
+.login-module .form-label{
+	font-weight: 700;
+    font-size: 16px;
+}
+.login-module .form-control{
+    padding: 15px 25px;
+    color: #7a7a7a;
+    box-shadow: 0 0 1px 0 rgb(0 0 0 / 2%);
+    background-color: var(--white);
+    border: 1px solid #d9d9d9;
+    font-size: 16px;
+	border-radius: 30px;
+}
+.login-module .btn{
+	width: 100%;
+	padding: 10px;
+	font-size: 15px;
+	border-radius: 30px;
+	text-align: center;
+	margin: 20px 0;
+}
+.login-module .form-holder p{
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+}
+.login-module .form-holder p a{
+	text-decoration: none;
+	font-size: 12px;
+}
+@media only screen and (max-width: 767.98px){
+	.login-module .form-holder{
+		padding: 30px 20px;
+	}
+	.login-module .form-holder p{
+		flex-direction: column;
+	}
+}

@@ -1,0 +1,78 @@
+.project-detail h3{
+	font: 700 28px/1.2 var(--MontserratFont);
+	margin: 0 0 10px;
+	color: var(--ebonyClay);
+}
+.project-detail .widget{
+	background: var(--zumThor);
+	padding: 25px;
+	border-radius: 5px;
+	margin-bottom: 30px;
+}
+.project-detail dl{
+	color: var(--ebonyClay);
+}
+.project-detail .img{
+	margin-bottom: 30px;
+}
+.project-detail .holder{
+	padding-bottom: 30px;
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	margin-bottom: 30px;
+}
+.project-detail .holder h2{
+	font: 700 32px/1.2 var(--MontserratFont);
+}
+.project-detail h4{
+	font-size: 24px;
+	font-weight: 700;
+	margin: 0 0 30px;
+}
+.aside .slider-holder img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.slider-holder .slick-arrow{
+	background: var(--solidGray);
+	width: 40px;
+	height: 40px;
+	margin: 0 7px;
+	border-radius: 7px;
+	display: inline-block;
+	border: 0;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	z-index: 5;
+	transition: all ease 0.5s;
+}
+.slider-holder .slick-arrow:hover .fa-arrow-right,
+.slider-holder .slick-arrow:hover .fa-arrow-left{
+	color: var(--white);
+}
+.slider-holder .slick-arrow.slick-prev{
+	margin-left: -50px;
+}
+.slider-holder .slick-slider{
+	padding-bottom: 80px;
+}
+.slider-holder .slick-arrow:hover{
+	background: var(--darkBlue);
+}
+@media only screen and (max-width: 767.98px){
+	.project-detail .holder h2{
+		font-size: 22px;
+	}
+	.project-detail .video-holder{
+		max-width: 280px;
+		margin: 0 auto;
+	}
+	.project-detail .video-holder video{
+		max-width: 280px;
+		margin: 0 auto 30px;
+	}
+	.project-detail .slider-holder{
+		margin-bottom: 30px;
+	}
+}

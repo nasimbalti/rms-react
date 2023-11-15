@@ -1,0 +1,121 @@
+@import '../../Utils/slickslider.css';
+
+.testimonial-area{
+	background: var(--clay);
+	padding: 50px 0;
+}
+.testimonial-area .holder{
+	box-shadow: 0 0 19px rgb(0 0 0 / 5%);
+	padding: 20px 20px 30px 20px;
+	background: var(--white);
+	border-radius: 5px;
+	margin: 60px 10px 0;
+	text-align: center;
+}
+.testimonial-area .top-icons{
+	display: flex;
+	justify-content: space-between;
+	margin-top: -60px;
+}
+.testimonial-area .top-icons img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.testimonial-area h3{
+	margin: 0;
+	font-size: 24px;
+	line-height: 1.2;
+	font-weight: bold;
+	color: var(--black);
+}
+.testimonial-area .rating{
+	margin: 0;
+	padding: 5px 0;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+.testimonial-area .rating li{
+	margin: 0 2px;
+}
+.testimonial-area .rating svg path{
+	fill: var(--yellow);
+}
+.testimonial-area .holder.collapsed .text p{
+	display: -webkit-box;
+	-webkit-line-clamp: 5;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+.testimonial-area .read-more{
+	color: var(--primaryExtended);
+	display: inline-block;
+	cursor: pointer;
+}
+.testimonial-area .read-more:hover{
+	color: var(--darkBlue);
+}
+.testimonial-area .holder.collapsed .text p:not(:first-child),
+.testimonial-area .holder.collapsed .frame .less,
+.testimonial-area .holder.expanded .frame .more{
+	display: none;
+}
+.testimonial-area .holder.expanded .frame .less{
+	display: inline-block;
+}
+.testimonial-area .slick-slider{
+	margin-bottom: 120px;
+}
+.testimonial-area .review{
+	display: flex;
+	justify-content: center;
+}
+.testimonial-area .review .title{
+	font-weight: normal;
+	color: var(--grayish);
+	margin-right: 10px;
+}
+.testimonial-area .links{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+.testimonial-area .links a{
+	text-decoration: none;
+	padding: 5px 20px;
+	font-size: 14px;
+	border-radius: 5px;
+	margin: 0 3px;
+	display: inline-block;
+	background: var(--darkBlue);
+	color: var(--white);
+	transition: all ease 0.5s;
+}
+.testimonial-area .links a:hover{
+	background: var(--black);
+}
+@media only screen and (max-width: 991.98px){
+	.testimonial-area .slick-slider{
+		margin-bottom: 20px;
+	}
+}
+@media only screen and (max-width: 767.98px){
+	.testimonial-area{
+		padding: 30px 0;
+	}
+	.testimonial-area .review,
+	.testimonial-area .links{
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+	}
+	.testimonial-area .review .title{
+		margin-right: 0;
+		margin-bottom: 5px;
+	}
+	.testimonial-area .links li{
+		margin-bottom: 5px;
+	}
+}

@@ -1,0 +1,143 @@
+@import '../../Utils/slickslider.css';
+
+.press-release{
+	background: var(--clay);
+	padding: 80px 0;
+}
+.press-release .img-holder{
+	display: flex;
+	align-items: flex-end;
+	flex-direction: column;
+	padding-right: 60px;
+	padding-bottom: 130px;
+	position: relative;
+}
+.press-release .img-holder img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.press-release .img-holder .img.bottom{
+	position: absolute;
+	left: -20px;
+	bottom: 0;
+}
+.press-release .img-holder .bar{
+	position: absolute;
+    left: 35px;
+    top: 0;
+    height: 118px;
+    width: 20px;
+    background: var(--darkBlue);
+    border-radius: 20px;
+    content: "";
+}
+.press-release .img-holder .square{
+	position: absolute;
+    right: -40px;
+    height: 40px;
+    width: 40px;
+    bottom: 90px;
+    background: var(--darkBlue);
+    border-radius: 0 0 10px 0;
+    content: "";
+}
+.press-release .slick-slider{
+	text-align: center;
+	color: var(--grayDark);
+	font: 500 18px/32px var(--OpenSansFont);
+}
+.press-release .slick-slider h3{
+	margin: 0 0 18px;
+	font: bold 50px/1.2 var(--MontserratFont);
+}
+.press-release .slick-slider h4{
+	margin: 0 0 10px;
+	color: var(--darkBlue);
+	font: bold 24px/36px var(--MontserratFont);
+}
+.press-release .slick-slider p{
+	margin-bottom: 50px;
+}
+.press-release .slick-slider .btn{
+	font: bold 18px/1.2 var(--MontserratFont);
+	box-shadow: 0px 11px 15px rgb(0 0 0 / 18%);
+	padding: 17px 38px;
+	background: var(--white);
+	color: var(--black);
+	margin-bottom: 30px;
+	border-radius: 35px;
+	transition: all ease 0.5s;
+}
+.press-release .slick-slider .btn:hover{
+	background: var(--black);
+	color: var(--white);
+}
+.press-release .slick-dots{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.press-release .slick-dots li{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 5px;
+}
+.press-release .slick-dots button{
+	padding: 0;
+	width: 20px;
+	height: 20px;
+	display: block;
+	background: var(--gray);
+	border-radius: 100%;
+	border: 0;
+	font-size: 0;
+	line-height: 0;
+}
+.press-release .slick-dots .slick-active button{
+	background: var(--blue);
+}
+@media only screen and (max-width: 1399.98px){
+	.press-release .img-holder .bar{
+		left: -20px;
+	}
+	.press-release .img-holder .img:first-child{
+		padding-left: 10px;
+	}
+}
+@media only screen and (max-width: 1199.98px){
+	.press-release .img-holder{
+		padding-right: 0;
+	}
+	.press-release .img-holder .bar{
+		height: 88px;
+	}
+}
+@media only screen and (max-width: 991.98px){
+	.press-release .img-holder .img.bottom{
+		margin-right: 80px;
+	}
+}
+@media only screen and (max-width: 767.98px){
+	.press-release{
+		padding: 30px 0;
+	}
+	.press-release .img-holder{
+		margin-bottom: 30px;
+	}
+	.press-release .img-holder .img:first-child{
+		margin-left: 20px;
+	}
+	.press-release .img-holder .img.bottom {
+		margin-right: 60px;
+		margin-left: 22px;
+	}
+	.press-release .img-holder .bar{
+		left: 0;
+	}
+	.press-release .slick-slider h3{
+		font-size: 30px;
+	}
+}

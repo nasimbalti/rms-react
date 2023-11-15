@@ -1,0 +1,97 @@
+.job-details{
+	padding: 60px 0;
+}
+.job-details .holder,
+.job-details .box{
+	padding: 30px;
+    border-radius: 2px;
+    background: var(--white);
+    -webkit-box-shadow: 0 10px 30px rgb(0 0 0 / 7%);
+    box-shadow: 0 10px 30px rgb(0 0 0 / 7%);
+    margin-bottom: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.job-details .holder h2{
+	margin: 0;
+	font: 600 28px/1.2 var(--MontserratFont);
+	color: var(--grayDark);
+}
+.job-details .holder .interest{
+	text-decoration: none;
+    padding: 10px 36px;
+    display: inline-block;
+    border: 1px solid var(--primaryExtended);
+	color: var(--primaryExtended);
+	transition: all ease 0.5s;
+}
+.job-details .holder .interest:hover{
+	background: var(--primaryExtended);
+	color: var(--white);
+}
+.job-details .title{
+	font-size: 16px;
+	display: block;
+	color: var(--ebonyClay);
+	margin: 0 0 16px;
+}
+.job-details ul{
+	padding: 0 0 10px;
+	margin: 0;
+	list-style: none;
+}
+.job-details ul li{
+	margin: 0 0 10px;
+	font-size: 15px;
+}
+.job-details ul .fa-circle-arrow-right{
+	margin-right: 10px;
+	color: var(--darkBlue);
+}
+.job-details .box{
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.job-details .box h4{
+	margin: 0;
+	font: 500 22px/1.2 var(--MontserratFont);
+}
+.job-details .socials{
+	padding: 15px 0 0;
+	margin: 0;
+	list-style: none;
+}
+.job-details .socials li{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 4px;
+}
+.job-details .socials a{
+	display: flex;
+	text-decoration: none;
+	width: 32px;
+	height: 32px;
+	align-items: center;
+	justify-content: center;
+	color: var(--white);
+	transition: all ease 0.5s;
+}
+.job-details .socials .facebook{
+	background: var(--faceBookClr);
+}
+.job-details .socials .twitter{
+	background: var(--twitterClr);
+}
+.job-details .socials .google{
+	background: var(--googleClr);
+}
+.job-details .socials .linkedin{
+	background: var(--linkdedInClr);
+}
+.job-details .socials .pinterest{
+	background: var(--pinterestClr);
+}
+.job-details .socials a:hover{
+	opacity: 0.7;
+}

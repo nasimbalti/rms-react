@@ -1,0 +1,150 @@
+.tv-installation{
+	padding: 60px 0;
+}
+.tv-installation .holder{
+	background: var(--darkBlue) url('../../img/front/tiles-bg.jpg') no-repeat 100% 100%;
+	background-size: cover;
+	display: block;
+	color: var(--white);
+	padding: 20px 15px;
+	text-decoration: none;
+	transition: all ease 0.5s;
+	border-radius: 10px;
+}
+.tv-installation.automation.redBg-9 .slick-slide:nth-child(9) .holder,
+.tv-installation.theater.redBg-7 .slick-slide:nth-child(7) .holder,
+.tv-installation.installation-services.redBg-6 .slick-slide:nth-child(6) .holder,
+.tv-installation.multi-room-installation.redBg-5 .slick-slide:nth-child(5) .holder,
+.tv-installation.outdoor-entertainment.redBg-6 .slick-slide:nth-child(6) .holder,
+.tv-installation.surveillance.redBg-4 .custom-col:nth-child(4) .holder{
+	background: var(--tallPoppy);
+}
+.tv-installation .holder:hover{
+	background: var(--cyan);
+}
+.tv-installation .ico{
+	min-height: 80px;
+	margin-bottom: 20px;
+}
+.tv-installation img{
+	display: block;
+	max-height: 80px;
+	height: auto;
+	margin: 0 auto;
+}
+#main .tv-installation h3{
+	margin: 0 0 30px;
+	text-align: center;
+	font-size: 16px;
+	color: var(--white);
+	font-weight: 700;
+	min-height: 40px;
+}
+#main .tv-installation p{
+	margin: 0 0 15px;
+	font-size: 14px;
+	line-height: 22px;
+	min-height: 130px;
+	color: var(--white);
+}
+.tv-installation.grid-4 .container,
+.tv-installation.grid-5 .container{
+	display: grid;
+}
+.tv-installation.grid-4 .custom-row,
+.tv-installation.grid-5 .custom-row{
+	display: grid;
+	justify-items: center;
+	place-items: center;
+	align-items: center;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	row-gap: 30px;
+	margin: auto;
+}
+.tv-installation.grid-4 .custom-row{
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.tv-installation.grid-4 .custom-col,
+.tv-installation.grid-5 .custom-col{
+	justify-items: center;
+	align-items: center;
+}
+.tv-installation.slick-slider .slick-arrow{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -23px;
+	z-index: 5;
+	width: 18px;
+	height: 18px;
+	background: var(--primaryExtended);
+	border-radius: 100%;
+	border: 3px solid var(--white);
+	text-indent: -9999px;
+	overflow: hidden;
+	cursor: pointer;
+	padding: 5px;
+}
+.tv-installation.slick-slider .slick-arrow.slick-disabled{
+	opacity: 0;
+	visibility: hidden;
+}
+.tv-installation.slick-slider .slick-arrow.slick-next{
+	left: auto;
+	right: 0;
+}
+.tv-installation.slick-slider .fa-chevron-left,
+.tv-installation.slick-slider .fa-chevron-right{
+	color: var(--white);
+}
+.tv-installation.slick-slider .slick-slide{
+	padding: 0 5px;
+}
+@media only screen and (max-width: 1199.98px){
+	#main .tv-installation h3{
+		min-height: 40px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 0 0 15px;
+	}
+}
+@media only screen and (max-width: 991.98px){
+	.tv-installation.grid-4 .custom-row,
+	.tv-installation.grid-5 .custom-row{
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+@media only screen and (max-width: 767.98px){
+	.tv-installation{
+		padding: 30px 0;
+	}
+	.tv-installation.grid-4 .custom-row,
+	.tv-installation.grid-5 .custom-row{
+		grid-template-columns: 1fr 1fr;
+		row-gap: 15px;
+	}
+	#main .tv-installation h3{
+		min-height: inherit;
+		margin: 0 0 10px;
+	}
+	.tv-installation .ico{
+		margin-bottom: 10px;
+	}
+	#main .tv-installation p{
+		text-align: center;
+		min-height: inherit;
+	}
+	.tv-installation .custom-row{
+		flex-direction: column;
+	}
+	.tv-installation .custom-row .custom-col{
+		margin-bottom: 20px;
+	}
+}
+@media only screen and (max-width: 575.98px){
+	.tv-installation.grid-4 .custom-row,
+	.tv-installation.grid-5 .custom-row{
+		grid-template-columns: 1fr;
+	}
+}

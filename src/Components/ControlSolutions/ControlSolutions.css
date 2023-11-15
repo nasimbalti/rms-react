@@ -1,0 +1,29 @@
+.control-solutions{
+	padding: 50px 0;
+}
+.control-solutions h3{
+	margin: 0 0 20px;
+	font: 700 30px/1.2 var(--MontserratFont);
+	color: var(--bigStone);
+	text-align: center;
+}
+.control-solutions p{
+	font-size: 16px;
+    line-height: 26px;
+    color: var(--ebonyClay);
+}
+.control-solutions .slick-slide img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: auto;
+}
+@media only screen and (max-width: 767.98px){
+	.control-solutions {
+		padding: 30px 0;
+	}
+	.control-solutions h3{
+		margin: 0 0 10px;
+		font-size: 20px;
+	}
+}

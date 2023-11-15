@@ -1,0 +1,486 @@
+.multiaudio-pkg{
+	padding: 30px 0;
+}
+.multiaudio-pkg .main-title{
+	background: var(--darkBlue);
+	text-align: center;
+	padding: 19px 15px;
+	border-radius: 10px 10px 0 0;
+}
+.multiaudio-pkg .main-title h2{
+	margin: 0;
+	color: var(--white);
+	font-size: 24px;
+    font-weight: 700;
+}
+.multiaudio-pkg .holder{
+	display: flex;
+}
+.multiaudio-pkg .multi-frame:first-child{
+	flex-basis: 60%;
+}
+.multiaudio-pkg .multi-frame{
+	flex-basis: 40%;
+	position: relative;
+}
+.multiaudio-pkg .left-heading{
+	background: var(--tundora);
+	padding: 15px 10px 16px;
+	text-align: center;
+	color: var(--silverChalice);
+	font-size: 60px;
+	line-height: 64px;
+	font-weight: 700;
+}
+.multiaudio-pkg .left-heading .form-control{
+    text-align: center;
+    background: none;
+    border: none;
+    height: 100%;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--silverChalice);
+}
+.multiaudio-pkg .left-heading .form-control::-ms-input-placeholder{
+	color: var(--silverChalice);
+}
+.multiaudio-pkg .left-heading .form-control::placeholder{
+	color: var(--silverChalice);
+}
+.multiaudio-pkg .right-heading{
+	padding: 10px;
+	text-align: center;
+	background: var(--emperor);
+	color: var(--gallery);
+	font-size: 60px;
+	line-height: 64px;
+	font-weight: 700;
+}
+.multiaudio-pkg .right-heading h3{
+	margin: 0;
+	color: var(--gallery) !important;
+	font: 700 60px/64px var(--OpenSansFont) !important;
+}
+.multiaudio-pkg .multi-frame .col-holder{
+	display: flex;
+}
+.multiaudio-pkg .col-holder .col{
+	padding: 25px 25px 40px;
+	flex-basis: 35%;
+	background: var(--scienceBlue);
+	color: var(--white);
+}
+.multiaudio-pkg .col-holder .col:first-child{
+	flex-basis: 65%;
+	background: var(--black);
+	border-bottom-left-radius: 10px;
+}
+.multiaudio-pkg .input-rows label{
+	display: block;
+	text-align: right;
+	cursor: pointer;
+}
+.multiaudio-pkg .input-rows input[type="checkbox"]{
+	width: 20px;
+	height: 20px;
+	accent-color: var(--white);
+	cursor: pointer;
+	margin-top: 5px;
+}
+.multiaudio-pkg .multi-frame .gray-bg{
+	margin: 0 -25px;
+	padding: 25px;
+	background: var(--tundora);
+}
+.multiaudio-pkg .col .title{
+	display: block;
+	font-weight: 600;
+}
+.multiaudio-pkg .radio-holder input[type="radio"]{
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	accent-color: var(--tundora);
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.multiaudio-pkg .radio-holder{
+	margin-bottom: 10px;
+}
+.multiaudio-pkg .radio-holder label{
+	cursor: pointer;
+}
+.multiaudio-pkg .speakercountbox{
+	width: 105px;
+    height: 105px;
+    border: 2px solid var(--white);
+    margin: 0 auto 20px;
+    position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 20px;
+	line-height: 1.2;
+}
+.multiaudio-pkg .speakercountbox .spkaddlink{
+	border: 0;
+	position: absolute;
+	right: -120px;
+	top: 30px;
+	background: transparent;
+	color: var(--white);
+	z-index: 1;
+}
+.multiaudio-pkg .speakercountbox .spkaddlink:before{
+	position: absolute;
+	right: -12px;
+	top: -28px;
+	content: '';
+	background: url('../../img/front/tv-arrow.png') no-repeat;
+	width: 47px;
+	height: 93px;
+	z-index: -1;
+}
+.multiaudio-pkg .speakercountbox .spkaddlink span{
+	font-size: 14px;
+	max-width: 56px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.multiaudio-pkg .speakercountbox .spkaddlink .fa-plus{
+	font-size: 30px;
+	line-height: 1.2;
+	display: inline-block;
+	vertical-align: middle;
+}
+.multiaudio-pkg .col .roompricecount {
+	text-align: center;
+	max-width: 150px;
+	margin: 0 auto;
+	margin-top: 20px;
+	font-size: 20px;
+	line-height: 23px;
+}
+.multiaudio-pkg .col .roompricecount span {
+	display: block;
+	border-bottom: 2px solid var(--white);
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+.multiaudio-pkg .multi-frame .box-right{
+	height: 100%;
+	padding: 20px 30px;
+	border-bottom-right-radius: 10px;
+	background: var(--royalBlue);
+	color: var(--gallery);
+}
+.multiaudio-pkg .multi-frame .box-right .txt{
+	padding-left: 40px;
+}
+.multiaudio-pkg .multi-frame .box-right p{
+	color: var(--gallery) !important;
+}
+.multiaudio-pkg .multi-frame:last-child{
+	display: flex;
+	flex-direction: column;
+}
+.multiaudio-pkg .multi-frame .semi-circle-left{
+	display: block;
+	width: 33px;
+	height: 66px;
+	background-color: var(--royalBlue);
+	border-radius: 90px 0 0 90px;
+	position: absolute;
+	right: 100%;
+	bottom: 50px;
+	z-index: 5;
+}
+.multiaudio-pkg .col2-holder{
+	display: flex;
+}
+.multiaudio-pkg .col2-holder .col2{
+	flex-basis: 33.3333%;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+.multiaudio-pkg .col2-holder .title2{
+	padding: 10px;
+	color: var(--white);
+	text-align: center;
+}
+.multiaudio-pkg .col2:first-child .title2{
+	background: var(--tundora);
+}
+.multiaudio-pkg .col2:first-child{
+	background: var(--scienceBlue);
+}
+.multiaudio-pkg .col2:nth-child(2) .title2{
+	background: var(--emperor);
+}
+.multiaudio-pkg .col2:nth-child(2){
+	background: var(--doveGrayDark);
+}
+.multiaudio-pkg .col2:last-child .title2{
+	background: var(--scienceBlue);
+}
+.multiaudio-pkg .col2:last-child{
+	background: var(--royalBlue);
+}
+.multiaudio-pkg .col2 .title2 h2{
+	margin: 0;
+	font-weight: 700;
+	font-size: 36px;
+}
+.multiaudio-pkg .col2 .btn-back{
+	display: inline-block;
+	border: 0;
+	background: transparent;
+	color: var(--white);
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 40px;
+	position: relative;
+	transition: all ease 0.5s;
+}
+.multiaudio-pkg .col2 .btn-back:before{
+	position: absolute;
+	left: -11px;
+	top: 11px;
+	content: '';
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 10px 10px 0;
+	border-color: transparent var(--white) transparent transparent;
+}
+.multiaudio-pkg .col2 .btn-back:hover{
+	opacity: 0.7;
+}
+.multiaudio-pkg .col2 .frame{
+	padding: 25px;
+}
+.multiaudio-pkg .col2 .go-back{
+	margin-bottom: 5px;
+}
+.multiaudio-pkg .col2 .go-back .btn{
+	text-align: left;
+	color: var(--white);
+	padding-left: 30px;
+	position: relative;
+	transition: all ease 0.5s;
+}
+.multiaudio-pkg .col2 .go-back .btn:before{
+	position: absolute;
+	left: 0;
+	top: 11px;
+	content: '';
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 15px 15px 15px 0;
+	border-color: transparent var(--white) transparent transparent;
+}
+.multiaudio-pkg .col2 .go-back .btn:hover{
+	opacity: 0.7;
+}
+.multiaudio-pkg .col2 .check-box{
+	margin-bottom: 10px;
+}
+.multiaudio-pkg .col2 .check-box input{
+	width: 20px;
+	height: 20px;
+	margin-top: 5px;
+	cursor: pointer;
+	margin-right: 10px;
+	accent-color: var(--white);
+}
+.multiaudio-pkg .col2 .check-box label{
+	display: inline-block;
+	vertical-align: top;
+	max-width: 80%;
+	color: var(--white);
+	cursor: pointer;
+}
+.multiaudio-pkg .col2 .ico-arrow {
+	width: 46px;
+	height: 93px;
+	position: absolute;
+	bottom: 30px;
+	left: 100%;
+	z-index: 1;
+	content: "";
+	background: url('../../img/front/tv-arrow.png') no-repeat;
+}
+.multiaudio-pkg .col2 .ico-arrow.grey{
+	filter: brightness(0) saturate(100%) invert(47%) sepia(10%) saturate(7%) hue-rotate(336deg) brightness(89%) contrast(86%);
+}
+.multiaudio-pkg .col2 .ico-arrow.white{
+	filter: brightness(0) saturate(100%) invert(93%) sepia(1%) saturate(7497%) hue-rotate(280deg) brightness(111%) contrast(107%);
+}
+.multiaudio-pkg .col2 .tvstepbtn button{
+	border: 0;
+    display: inline-block;
+    background: #fff;
+    color: var(--darkBlue);
+    padding: 15px 50px;
+    border-radius: 60px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+}
+.multiaudio-pkg .step-3 .col2:nth-child(2),
+.multiaudio-pkg .step-4 .col2:nth-child(2),
+.multiaudio-pkg .step-5 .col2:nth-child(2){
+	background: var(--white);
+	border-bottom: 3px solid var(--scienceBlue);
+}
+.multiaudio-pkg .para-3{
+	text-align: center;
+}
+.multiaudio-pkg .para-3 p{
+	font-size: 13px !important;
+}
+.multiaudio-pkg .multi-row{
+	text-align: center;
+	margin-bottom: 15px;
+}
+.multiaudio-pkg .multi-row label{
+	font-size: 14px;
+	color: var(--black);
+}
+.multiaudio-pkg .speaker-item img{
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+.multiaudio-pkg .check-box-holder.position{
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	bottom: 50px;
+}
+.multiaudio-pkg .check-box-holder.position input{
+	margin-top: 2px;
+	accent-color: var(--royalBlue);
+}
+.multiaudio-pkg .check-box-holder.position label{
+	color: var(--royalBlue);
+}
+.multiaudio-pkg .amp_price_count{
+	color: var(--darkBlue) !important;
+	font-size: 14px !important;
+	line-height: 1.2 !important;
+}
+.multiaudio-pkg .step-5 .speaker-item{
+	margin-bottom: 70px;
+}
+@media only screen and (max-width: 1199.98px){
+	.multiaudio-pkg .speakercountbox .spkaddlink{
+		right: -83px;
+	}
+	.multiaudio-pkg .col2 .title2 h2{
+		font-size: 26px;
+	}
+	.multiaudio-pkg .col2 .btn-back{
+		font-size: 24px;
+		line-height: 1;
+	}
+	.multiaudio-pkg .col2 .btn-back:before{
+		top: 4px;
+	}
+	.multiaudio-pkg .step-3 .speaker-item{
+		margin-bottom: 70px;
+	}
+	.multiaudio-pkg .col .title{
+		margin-bottom: 15px;
+	}
+}
+@media only screen and (max-width: 991.98px){
+	.multiaudio-pkg .col-holder .col:first-child,
+	.multiaudio-pkg .col-holder .col{
+		flex-basis: 50%;
+	}
+	.multiaudio-pkg .multi-frame .img{
+		margin-bottom: 20px;
+	}
+	.multiaudio-pkg .radio-holder label{
+		max-width: 80%;
+		vertical-align: top;
+	}
+	.multiaudio-pkg .left-heading{
+		padding: 19px 10px 20px;
+	}
+	.multiaudio-pkg .left-heading .form-control{
+		font-size: 24px;
+	}
+	.multiaudio-pkg .col2 .title2 h2{
+		font-size: 19px;
+	}
+	.multiaudio-pkg .col2 .btn-back{
+		font-size: 20px;
+		line-height: 1;
+	}
+	.multiaudio-pkg .col2 .btn-back:before{
+		top: 1px;
+	}
+	.multiaudio-pkg .col2 .tvstepbtn button{
+		font-size: 22px;
+		padding: 15px 25px;
+	}
+}
+@media only screen and (max-width: 767.98px){
+	.multiaudio-pkg{
+		padding: 15px 0;
+	}
+	.multiaudio-pkg .holder,
+	.multiaudio-pkg .col2-holder,
+	.multiaudio-pkg .multi-frame .col-holder{
+		display: block;
+	}
+	.multiaudio-pkg .left-heading .form-control {
+		font-size: 16px;
+	}
+	.multiaudio-pkg .col-holder .img img{
+		margin: auto;
+		display: block;
+	}
+	.multiaudio-pkg .col-holder .col:first-child{
+		border-bottom-left-radius: 0;
+	}
+	.multiaudio-pkg .speakercountbox{
+		margin: 0 0 20px;
+	}
+	.multiaudio-pkg .speakercountbox .spkaddlink{
+		right: auto;
+		left: 100%;
+		min-width: 100px;
+		top: 24px;
+	}
+	.multiaudio-pkg .col .roompricecount{
+		max-width: inherit;
+	}
+	.multiaudio-pkg .right-heading h3{
+		font-size: 50px !important;
+	}
+	.multiaudio-pkg .multi-frame .box-right{
+		padding: 20px 15px;
+	}
+	.multiaudio-pkg .multi-frame .box-right .txt{
+		padding-left: 0;
+	}
+	.multiaudio-pkg .multi-frame .semi-circle-left,
+	.multiaudio-pkg .speakercountbox .spkaddlink:before{
+		display: none;
+	}
+	.multiaudio-pkg .multi-frame .box-right{
+		border-bottom-right-radius: 0;
+	}
+	.multiaudio-pkg .main-title h2{
+		font-size: 16px;
+	}
+	.multiaudio-pkg .col2 .tvstepbtn button{
+		font-size: 16px;
+	}
+}

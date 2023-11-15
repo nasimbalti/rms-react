@@ -1,0 +1,279 @@
+.surveillance-wrap{
+	padding: 20px 0 30px;
+}
+.surveillance-wrap .head{
+	background: var(--darkBlue);
+	color: var(--white);
+	text-align: center;
+	padding: 15px;
+}
+.surveillance-wrap .left-align .head{
+	border-top-left-radius: 10px;
+}
+.surveillance-wrap .right-align .head{
+	border-top-right-radius: 10px;
+	background: var(--mineShaft);
+}
+.surveillance-wrap .head h2{
+	margin: 0;
+	font-size: 24px;
+	font-weight: 700;
+}
+.surveillance-wrap .holder{
+	display: flex;
+}
+.surveillance-wrap .left-align{
+	flex-basis: 70%;
+}
+.surveillance-wrap .right-align{
+	flex-basis: 30%;
+}
+.surveillance-wrap .col .ico-arrow{
+	position: absolute;
+	left: 100%;
+	bottom: 40px;
+	content: '';
+	background: url('../../img/front/tv-arrow.png') no-repeat;
+	width: 47px;
+	height: 93px;
+	background-size: cover;
+	z-index: 1;
+	filter: brightness(0) saturate(100%) invert(36%) sepia(91%) saturate(3037%) hue-rotate(207deg) brightness(94%) contrast(90%);
+}
+.surveillance-wrap .btn-area{
+	text-align: center;
+}
+.surveillance-wrap .btn-area .total_price{
+	text-decoration: none;
+	display: inline-block;
+	background: var(--white);
+	color: var(--darkBlue);
+	border-radius: 45px;
+	font-size: 18px;
+	padding: 10px 25px;
+	text-align: center;
+	border: 0;
+	font-weight: 700;
+}
+.surveillance-wrap .btn-area .total_price:hover{
+	background: var(--black);
+	color: var(--white);
+}
+.surveillance-wrap .col3{
+	padding: 10px;
+	background: var(--white);
+	border: solid var(--royalBlue);
+	border-width: 5px 0 5px 5px;
+	position: relative;
+}
+.surveillance-wrap .col3:last-child{
+	border-right: 5px solid var(--royalBlue);
+}
+.surveillance-wrap .radio-toggle{
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-top: -10px;
+	background: var(--black);
+	display: flex;
+	justify-content: space-between;
+}
+.surveillance-wrap .radio-toggle .label{
+	color: var(--white);
+	padding: 5px 8px;
+	font-weight: normal;
+	font-size: 14px;
+}
+.surveillance-wrap .radio-toggle .radio-hide{
+	position: absolute;
+	left: -9999px;
+	top: -9999px;
+	visibility: hidden;
+}
+.surveillance-wrap .radio-toggle label{
+	background: var(--emperor);
+	padding: 5px;
+	color: var(--white);
+	font-size: 14px;
+	font-weight: 600;
+	cursor: pointer;
+}
+.surveillance-wrap .radio-toggle input:hover + label,
+.surveillance-wrap .radio-toggle input:checked + label{
+	background: var(--white);
+	color: var(--black);
+}
+.surveillance-wrap .col3 .title{
+	display: block;
+	padding: 15px 0;
+	color: var(--royalBlue);
+}
+.surveillance-wrap .spkr-img{
+	margin-bottom: 30px;
+}
+.surveillance-wrap .spkr-img img{
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+.surveillance-wrap .radio-holder{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+.surveillance-wrap .radio-holder .radio-hide{
+	position: absolute;
+	left: -9999px;
+	top: -9999px;
+	visibility: hidden;
+}
+.surveillance-wrap .radio-holder label{
+	padding: 5px 8px;
+	font-size: 14px;
+	border: 1px solid transparent;
+	border-radius: 8px;
+	margin: 0 5px;
+	font-weight: 600;
+	cursor: pointer;
+}
+.surveillance-wrap .check-box-holder .check-box{
+	margin-bottom: 10px;
+}
+.surveillance-wrap .radio-holder input:hover + label,
+.surveillance-wrap .radio-holder input:checked + label{
+	border-color: var(--royalBlue);
+}
+.surveillance-wrap .check-box-holder input{
+	width: 20px;
+	height: 20px;
+	accent-color: var(--royalBlue);
+	margin-right: 10px;
+	margin-top: 2px;
+}
+.surveillance-wrap .check-box-holder label{
+	display: inline-block;
+	max-width: 80%;
+	vertical-align: top;
+	color: var(--royalBlue);
+	cursor: pointer;
+}
+.surveillance-wrap .num-holder{
+	margin: 0 0 15px;
+}
+.surveillance-wrap .num-holder input{
+	margin-top: 4px;
+}
+.surveillance-wrap .num-holder label{
+	font-size: 16px;
+	color: var(--royalBlue);
+}
+.surveillance-wrap .bullet-list{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	color: var(--darkBlue);
+}
+.surveillance-wrap .bullet-list li{
+	padding-left: 20px;
+	position: relative;
+}
+.surveillance-wrap .bullet-list li:before{
+	position: absolute;
+	left: 0;
+	top: 7px;
+	content: '';
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	background: var(--darkBlue);
+}
+.surveillance-wrap .col3 .ico-arrow{
+	position: absolute;
+    left: 100%;
+    bottom: 40px;
+    content: '';
+	background: url('../../img/front/tv-arrow.png') no-repeat;
+    width: 47px;
+    height: 93px;
+    background-size: cover;
+    z-index: 1;
+    filter: brightness(0) saturate(100%) invert(36%) sepia(91%) saturate(3037%) hue-rotate(207deg) brightness(94%) contrast(90%);
+}
+.surveillance-wrap .right-align{
+	background: var(--scienceBlue);
+}
+.surveillance-wrap .right-align .frame{
+	padding: 50px 25px 20px 45px;
+	position: relative;
+}
+.surveillance-wrap .right-align .semi-circle-left {
+    display: block;
+    width: 90px;
+    height: 45px;
+    background-color: var(--mineShaft);
+    border-radius: 0 0 90px 90px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -45px;
+    z-index: 5;
+}
+.surveillance-wrap .right-align .bullet-list{
+	margin-bottom: 40px;
+	font-size: 18px;
+	color: var(--white);
+}
+.surveillance-wrap .right-align .bullet-list li:before{
+	background: var(--white);
+}
+.surveillance-wrap .btn-area .total_price.disabled{
+	opacity: 0.5;
+	cursor: not-allowed;
+}
+@media only screen and (max-width: 1399.98px){
+	.surveillance-wrap .left-align{
+		flex-basis: 76%;
+	}
+	.surveillance-wrap .right-align{
+		flex-basis: 24%;
+	}
+}
+@media only screen and (max-width: 1199.98px){
+	.surveillance-wrap .radio-toggle{
+		flex-direction: column;
+		align-items: center;
+	}
+}
+@media only screen and (max-width: 991.98px){
+	.surveillance-wrap .head h2{
+		font-size: 19px;
+	}
+	.surveillance-wrap .right-align .frame{
+		padding: 50px 20px 20px;
+	}
+}
+@media only screen and (max-width: 767.98px){
+	.surveillance-wrap .holder{
+		display: block;
+	}
+	.surveillance-wrap .left-align,
+	.surveillance-wrap .right-align{
+		border: 3px solid var(--royalBlue);
+	}
+	.surveillance-wrap .col3{
+		border: 0;
+		border-bottom: 3px solid var(--royalBlue);
+	}
+	.surveillance-wrap .col3:last-child{
+		border-right: 0;
+	}
+	.surveillance-wrap .col3 .ico-arrow{
+		display: none;
+	}
+	.surveillance-wrap .head{
+		background: var(--royalBlue);
+		border-radius: 0;
+	}
+	.surveillance-wrap .left-align .head{
+		border-radius: 0;
+	}
+}

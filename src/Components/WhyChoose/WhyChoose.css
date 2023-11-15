@@ -1,0 +1,55 @@
+.why-choose{
+	padding: 30px 0 50px;
+}
+.why-choose .card{
+	border: 0;
+	padding: 0;
+	background: var(--darkBlue) url('../../img/front/tiles-bg.jpg') no-repeat;
+	background-size: cover;
+	min-height: 246px;
+	padding: 20px 15px 15px 15px;
+    text-align: center;
+    border-radius: 12px;
+	transition: all ease 0.5s;
+}
+.why-choose .card:hover{
+	background: var(--cyan);
+}
+.why-choose .card-img{
+	width: fit-content;
+	max-width: 100%;
+	display: block;
+	margin: 0 auto 16px;
+}
+.why-choose .card-body{
+	padding: 0;
+}
+.why-choose .card-title{
+	margin-bottom: 0;
+	font-size: 18px;
+	line-height: 1.2;
+	font-weight: bold;
+	color: var(--white);
+}
+@media only screen and (max-width: 991.98px){
+	.why-choose .col{
+		flex: 0 0 33%;
+		max-width: 33%;
+	}
+	.why-choose .card{
+		margin-bottom: 20px;
+	}
+}
+@media only screen and (max-width: 767.98px){
+	.why-choose{
+		padding: 30px 0;
+	}
+	.why-choose .col{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.why-choose .card{
+		margin-bottom: 20px;
+		min-height: inherit;
+	}
+}
